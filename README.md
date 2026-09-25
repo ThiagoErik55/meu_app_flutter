@@ -44,8 +44,8 @@ A interface foi construída com os seguintes widgets:
 ### Passos
 
 ```bash
-git clone https://github.com/[seu-usuario]/[nome-do-repositorio].git
-cd [nome-do-repositorio]
+git clone https://github.com/ThiagoErik55/meu_app_flutter
+cd meu_app_flutter
 flutter pub get
 flutter run
 ```
