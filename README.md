@@ -1,17 +1,58 @@
-# meu_app_flutter
+# Contador de Pontos
 
-A new Flutter project.
+**Aluno:** Thiago Erik Lima da Silva
+**Disciplina:** Desenvolvimento para Dispositivos Móveis I
 
-## Getting Started
+Um detalhe de formatação: no Markdown, duas linhas seguidas viram uma só na renderização, e o nome e a disciplina iriam aparecer grudados. Pra cada um ficar na sua linha, deixa uma linha em branco entre eles:
 
-This project is a starting point for a Flutter application.
+**Aluno:** Thiago Erik Lima da Silva
 
-A few resources to get you started if this is your first Flutter project:
+**Disciplina:** Desenvolvimento para Dispositivos Móveis I
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Descrição da atividade
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Atividade prática de desenvolvimento mobile com Flutter. O objetivo é criar um projeto
+Flutter, desenvolver uma interface própria, executar a aplicação em um emulador Android
+ou dispositivo físico, versionar o projeto com Git e publicá-lo em um repositório
+público no GitHub.
+
+## Sobre a aplicação
+
+O **Contador de Pontos** é um aplicativo simples para marcar pontuação. A tela mostra
+a pontuação atual em destaque e botões para aumentar, diminuir ou zerar o valor.
+O valor exibido é atualizado na hora a cada interação.
+
+A interface foi construída com os seguintes widgets:
+
+- `MaterialApp` e `Scaffold` como estrutura base
+- `AppBar` com o título da aplicação
+- `Text` com `TextStyle` para os textos
+- `Padding`, `Center`, `Column`, `Row` e `SizedBox` para organizar o layout
+- `ElevatedButton` e `TextButton` para as interações
+- `StatefulWidget` com `setState` para atualizar a tela
+
+## Funcionalidades
+
+- **+1**: adiciona um ponto
+- **-1**: remove um ponto (a pontuação nunca fica negativa)
+- **Zerar**: volta a pontuação para 0
+- Tema personalizado com `ColorScheme.fromSeed`
+
+## Como executar
+
+### Pré-requisitos
+
+- Flutter SDK instalado (`flutter doctor` sem erros)
+- Android Studio com Android SDK
+- Emulador Android ou dispositivo físico com depuração USB ativada
+
+### Passos
+
+```bash
+git clone https://github.com/[seu-usuario]/[nome-do-repositorio].git
+cd [nome-do-repositorio]
+flutter pub get
+flutter run
+```
+Com o emulador aberto, o comando `flutter run` instala e inicia o app. No VS Code,
+também é possível executar pela tecla **F5**.
