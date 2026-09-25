@@ -1,11 +1,6 @@
 # Contador de Pontos
 
 **Aluno:** Thiago Erik Lima da Silva
-**Disciplina:** Desenvolvimento para Dispositivos Móveis I
-
-Um detalhe de formatação: no Markdown, duas linhas seguidas viram uma só na renderização, e o nome e a disciplina iriam aparecer grudados. Pra cada um ficar na sua linha, deixa uma linha em branco entre eles:
-
-**Aluno:** Thiago Erik Lima da Silva
 
 **Disciplina:** Desenvolvimento para Dispositivos Móveis I
 
